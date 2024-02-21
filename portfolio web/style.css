@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+.margin{   
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color:lightsteelblue;
+    font-family: "Fira Sans", sans-serif;
+    width: 250px;
+    height: 200vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 15px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+    background-color: cornflowerblue;
+    width: 80vw;
+    margin: 144px auto;
+    height: 58vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: auto;
+}
+.devPic img{
+    height: 58vh;
+}
+.hello{
+    font-size: 60px;
+    font-family: "Libre Baskerville", serif;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Fira Sans", sans-serif;
+
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 25px;
+    font-family: "Fira Sans", sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin:0 3px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+.main{
+    background-color: aliceblue;
+    width: 100vw;
+    padding: 23px;
+}
+.contactform{
+    
+    padding: 34px;
+    padding-top: 24px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.contactform h1{
+    font-family: "Libre Baskerville", serif;
+    padding: 12px;
+}
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width: 28vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin:0 5px;
+    
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+
+}
+.blogitem{
+    margin: 20px;
+    font-family: "Fira Sans", sans-serif;
+}
+ h1{
+    font-family: "Fira Sans", sans-serif;
+    margin: 23px;
+}
+p{
+    font-family: "Libre Baskerville", serif;
+}
+.intro h2{
+    font-family: "Fira Sans", sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: "Libre Baskerville", serif;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 256px;
+    height: 6px;
+    background-color:red;
+    border: 2px black;
+}
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+}
+.hundred{
+    width: 265px;
+    background-color: blue;
+}
+.fifty{
+    width: 125px;
+    background-color: blueviolet;
+}
+.tf{
+    width: 75px;
+    background-color: greenyellow;
+}
